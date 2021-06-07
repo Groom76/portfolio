@@ -149,7 +149,7 @@ h2
 
 #competences div#css span
 {
-    color:blue;
+    color:lightskyblue;
 }
 
 #competences div#php span
@@ -159,7 +159,7 @@ h2
 
 #competences div#sql span
 {
-    color:purple;
+    color:violet;
 }
 
 /* Bannière */
@@ -197,14 +197,9 @@ h2
     margin-top: 20px;
 }
 
-#portfolio div a
+#portfolio div img
 {
     width: 30%;
-}
-
-#portfolio div a img
-{
-    width: 100%;
 }
 
 /* Footer */
