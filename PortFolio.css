@@ -83,15 +83,16 @@ section
     margin-bottom: 20px;
 }
 
-article, aside 
+article
 {
-    text-align: justify;
-}
-
-article{
     margin-right: 20px;
     flex: 3;
     font-size: 1.5em;
+}
+
+article, aside 
+{
+    text-align: justify;
 }
 
 aside 
@@ -206,13 +207,26 @@ h2
 
 #contacts
 {
-    display: flex;
+    display:flex;
     margin-top: 20px;
+    justify-content:center;
+}
+
+#contacts img
+{
+    align-content:center; 
+    margin-top: 20px;
+    width: 100%;
+}
+
+#contacts a
+{
+    width: 10%;
 }
 
 footer
 {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 /* MediaQuery */
@@ -238,6 +252,16 @@ footer
     {
         margin: 3px 0;
     }
+
+    h2
+    {
+        font-size:2.2rem !important; 
+    }
+
+    article
+    {
+        font-size: 1.4em;
+    }
 }
 
 @media only screen and (max-width: 768px) 
@@ -247,7 +271,16 @@ footer
         width: 600px;
     }
 
-}
+    article
+    {
+        font-size: 1.3em;
+    }
+
+    h2
+    {
+        font-size:2rem !important; 
+    }
+}   
 
 @media only screen and (max-width: 320px) 
 {
